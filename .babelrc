@@ -1,0 +1,5 @@
+{
+    "plugins": [
+      ["import", { "libraryName": "ant-design-vue", "libraryDirectory": "es", "style": "css" }] // `style: true` 會加載 less 文件
+    ]
+  }

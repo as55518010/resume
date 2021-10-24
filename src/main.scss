@@ -137,6 +137,7 @@ a {
         $font-family;
       font-weight: 500;
       letter-spacing: 5px;
+      color: #fff;
       @media screen and (max-width: 720px) {
         letter-spacing: 0;
         font-size: 48px;
@@ -169,6 +170,7 @@ a {
     h2 {
       display: inline-block;
       font-size: 24px;
+      color: #fff;
       @media screen and (max-width: 720px) {
         border-top: 1px solid #ffffff38;
         margin: 5px auto 0;

@@ -2,37 +2,25 @@
   <header class="content-hd">
     <section class="title">
       <div class="name">
-        <h1>張國毅</h1>
+        <h1>{{ author }}</h1>
       </div>
       <div class="job">
-        <h2>Java後端工程師 | 全棧工程師</h2>
+        <h2>PHP後端工程師 | VUE業餘愛好者</h2>
       </div>
     </section>
     <section class="info">
       <ul>
-        <li>男 / 1995.12</li>
-        <li>河南理工大學-萬方科技學院</li>
-        <li>電子信息工程</li>
-        <li>本科 / 2018年6月畢業</li>
+        <li>男 / 1994.01</li>
+        <li>國立金門大學</li>
+        <li>電子工程學系</li>
+        <li>2016年07月畢業</li>
       </ul>
     </section>
     <section class="contact">
       <ul>
         <li>
-          <a href="https://blog.csdn.net/qq_28505809" target="_blank">
-            <span class="contact-link">我的技術博客（CSDN）</span>
-            <span class="iconfont">
-              <svg width="16px" height="16px" viewBox="0 0 1024 1024">
-                <path
-                  d="M512 42.581333l-469.333333 469.333333 31.146667 31.146667L170.666667 446.250667l0 438.186667 682.666667 0L853.333333 446.208l96.853333 96.896 31.146667-31.146667L512 42.581333zM426.666667 841.770667l0-298.666667 170.666667 0 0 298.666667L426.666667 841.770667zM810.666667 841.770667l-170.666667 0 0-341.333333L384 500.437333l0 341.333333L213.333333 841.770667 213.333333 403.584l298.666667-298.666667 298.666667 298.666667L810.666667 841.770667z"
-                ></path>
-              </svg>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/GuoyiZhang" target="_blank">
-            <span class="contact-link">Github - GuoyiZhang</span>
+          <a href="https://github.com/as55518010" target="_blank">
+            <span class="contact-link">Github - as55518010</span>
             <span class="iconfont">
               <svg width="16px" height="16px" viewBox="0 0 1024 1024">
                 <path
@@ -43,24 +31,12 @@
           </a>
         </li>
         <li>
-          <a href="mailto:zhang_guoyi@qq.com" target="_blank">
-            <span class="contact-link">zhang_guoyi@qq.com</span>
+          <a href="mailto:as55518010@gmail.com" target="_blank">
+            <span class="contact-link">as55518010@gmail.com</span>
             <span class="iconfont">
               <svg width="16px" height="16px" viewBox="0 0 1024 1024">
                 <path
                   d="M903.808 239.04l-818.304 0 0 545.92 852.992 0 0-545.92-34.688 0zM869.664 273.152l-329.536 329.536c-15.04 15.04-41.248 15.04-56.288 0l-329.6-329.536 715.392 0zM119.616 286.752l221.536 221.504-221.536 221.536 0-443.072zM146.848 750.848l218.464-218.432 94.432 94.4c13.952 13.952 32.512 21.664 52.256 21.664s38.304-7.712 52.256-21.664l94.432-94.432 218.432 218.432-730.304 0zM904.384 729.824l-221.536-221.568 221.536-221.568 0 443.136z"
-                ></path>
-              </svg>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href="tel:17788058770" target="_blank">
-            <span class="contact-link">17788058770</span>
-            <span class="iconfont">
-              <svg width="16px" height="16px" viewBox="0 0 1024 1024">
-                <path
-                  d="M256 1024l512 0c26.464 0 48-21.536 48-48l0-928c0-26.464-21.536-48-48-48l-512 0c-26.464 0-48 21.536-48 48l0 928c0 26.464 21.536 48 48 48zM240 48c0-8.832 7.168-16 16-16l512 0c8.832 0 16 7.168 16 16l0 928c0 8.832-7.168 16-16 16l-512 0c-8.832 0-16-7.168-16-16l0-928zM288 864l448 0c8.832 0 16-7.168 16-16l0-672c0-8.832-7.168-16-16-16l-448 0c-8.832 0-16 7.168-16 16l0 672c0 8.832 7.168 16 16 16zM304 192l416 0 0 640-416 0 0-640zM496 928c0 17.664 14.336 32 32 32s32-14.336 32-32c0-17.664-14.336-32-32-32-17.664 0-32 14.336-32 32zM448 128l128 0c8.832 0 16-7.168 16-16s-7.168-16-16-16l-128 0c-8.832 0-16 7.168-16 16s7.168 16 16 16z"
                 ></path>
               </svg>
             </span>
@@ -74,5 +50,11 @@
 <script>
 export default {
   name: "BaseInfo",
+  setup() {
+    const author = process.env.VUE_APP_AUTHOR;
+    return {
+      author,
+    };
+  },
 };
 </script>
