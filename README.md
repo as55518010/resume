@@ -1,5 +1,5 @@
 ## 項目介紹
-### 預覽：[https://as55518010.github.io/curriculum_vitae/](https://as55518010.github.io/curriculum_vitae/)
+### 預覽：[https://derrick.tk/curriculum_vitae/](https://derrick.tk/curriculum_vitae/)
 
 ##### 本項目旨在顯示個人履歷
 ### 特色
