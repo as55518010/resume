@@ -7,6 +7,7 @@ const resolve = (dir) => {
 process.env.VUE_APP_TITLE = process.env.VUE_APP_TITLE || "個人履歷";
 
 module.exports = {
+  publicPath: "",
   configureWebpack() {
     return {
       resolve: {
