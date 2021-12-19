@@ -5,7 +5,7 @@
         <h1>{{ author }}</h1>
       </div>
       <div class="job">
-        <h2>PHP後端工程師 | VUE業餘愛好者</h2>
+        <h2>PHP後端工程師 | VUE 前端</h2>
       </div>
     </section>
     <section class="info">
