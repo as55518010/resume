@@ -37,13 +37,13 @@ jobs:
         run: yarn --frozen-lockfile
 
       # 運行構建腳本
-      - name: Build curriculum_vitae site
+      - name: Build resume site
         run: yarn build
 
       # 查看 workflow 的文檔來獲取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
       - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           # 部署到 gh-pages 分支
           target_branch: gh-pages
