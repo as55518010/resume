@@ -1,5 +1,5 @@
 ## 項目介紹
-### 預覽：[https://derrick.tk/curriculum-vitae/](https://derrick.tk/curriculum-vitae/)
+### 預覽：[https://as55518010.github.io/resume](https://as55518010.github.io/resume)
 
 ##### 本項目旨在顯示個人履歷
 ### 特色
@@ -25,5 +25,5 @@ yarn build
 
 ## 後續開發計劃
 
-- 增加以 API 讀取資料 
+- 增加以 API 讀取資料
 
